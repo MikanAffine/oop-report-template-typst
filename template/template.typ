@@ -13,6 +13,7 @@
   phone-number: "18800000000",
   email: "2240000000@stu.xjtu.edu.cn",
   date: datetime.today(),
+  count: 1
 ) = {
   import "@preview/cuti:0.3.0": show-cn-fakebold
   show: show-cn-fakebold
@@ -49,7 +50,7 @@
   sep()
   v(0.2cm)
   text(font: "DengXian", size: 24pt)[
-    第 1 次
+    第 #count 次
   ]
   v(0.3cm)
   image("xjtu-logo.png", width: 5.7cm, height: 5.72cm)
